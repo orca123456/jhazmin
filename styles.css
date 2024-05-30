@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: url('Background.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header h2 {
+    margin-top: 10px;
+    color: rgb(185, 144, 144);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+    padding: 20px;
+}
+
+.content {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.link a {
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.link a:hover {
+    background-color: purple;
+    color: #fff;
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 3px #000000, 0 6px #669671;
+}
+.link a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    padding-block: ;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
